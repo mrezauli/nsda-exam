@@ -544,6 +544,7 @@ function showDatetime() {
     setTimeout(showDatetime, 1000);
 }
 showDatetime();
+for(let index = 0; index < 11; index++)console.log(index);
 console.log("Hello world!");
 
 },{"bootstrap":"h36JB","../scss/custom.scss":"lYlvj"}],"h36JB":[function(require,module,exports) {
