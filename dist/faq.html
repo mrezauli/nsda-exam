@@ -21,9 +21,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <!--bootstrap icon cdn end-->
 
+    <!--alpinejs strat-->
+    <script defer="" src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!--alpinejs end-->
+
 </head>
 
 <body>
+
+    <!--alpine markup start-->
+    <div x-data="{  }">
+        <button x-on:click="alert('alert')">alert</button>
+        <button x-on:click="confirm('confirm')">confirm</button>
+        <button x-on:click="prompt('Please enter your name', 'Harry Potter')">prompt</button>
+        <button x-on:click="console.log('log')">console.log</button>
+        <button x-on:click="console.info('info')">console.info</button>
+        <button x-on:click="console.debug('debug')">console.debug</button>
+        <button x-on:click="console.warn('warn')">console.warn</button>
+        <button x-on:click="console.error('error')">console.error</button>
+    </div>
+    <!--alpine markup end-->
 
     <!-- navbar start-->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
@@ -155,7 +172,7 @@
     </footer>
     <!--footer end-->
 
-    <script src="/contact.975ef6c8.js" defer=""></script>
+    <!-- <script type="module" src="./index.js"></script> -->
 </body>
 
 </html>
